@@ -7,12 +7,12 @@
 <br>
 
 **Table of Contents**
-- [Problem Statement](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-problem-statement)
-	- [Background Story](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#background-story)
-- [Data Preparation](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-stage-1:-Data-Preparation)
-	- [Create Database and ERD](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#create-database-and-erd)
-- [Data Analysis](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-data-analysis)
-- [Summary No 8-11](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-Summary-No-8---11)
+- [Problem Statement](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/blob/main/README.md#-problem-statement)
+	- [Background Story](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/blob/main/README.md#background-story)
+- [Data Preparation](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/blob/main/README.md#-stage-1:-Data-Preparation)
+	- [Create Database and ERD](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/blob/main/README.md#create-database-and-erd)
+- [Data Analysis](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/blob/main/README.md#-data-analysis)
+- [Summary No 8-11](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/blob/main/README.md#-Summary-No-8---11)
 <br>
 <br>
 

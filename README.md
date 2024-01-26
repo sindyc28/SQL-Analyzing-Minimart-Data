@@ -6,14 +6,24 @@
 <br>
 <br>
 
-## 📂 **STAGE 0: Problem Statement**
+**Table of Contents**
+- [Problem Statement](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-problem-statement)
+	- [Background Story](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#background-story)
+- [Data Preparation](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-stage-1:-Data-Preparation)
+	- [Create Database and ERD](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#create-database-and-erd)
+- [Data Analysis](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-data-analysis)
+- [Summary No 8-11](https://github.com/sindyc28/SQL-Analyzing-Minimart-Data/blob/af663a3711c76949bd7ceb3c083bdab8b55f1aae/README.md#-Summary-No-8---11)
+<br>
+<br>
+
+## 📂 **Problem Statement**
 
 ### **Background Story**
 Di tengah persaingan pasar ritel yang semakin ketat pengelolaan dan analisis data menjadi kunci sukses bagi perusahaan minimart. Data yang efektif dan efisien dapat memberikan wawasan yang berharga untuk pengambilan keputusan yang lebih baik, optimalisasi operasional, dan peningkatan kinerja bisnis secara keseluruhan. Minimart, sebagai bisnis ritel skala kecil hingga menengah, seringkali menghadapi tantangan dalam mengelola informasi pelanggan, persediaan produk, efisiensi operasional, dan lain-lain. Dalam proyek ini akan dilakukan analisis menggunakan data minimart dengan harapan perusahaan dapat mengoptimalkan operasional, meningkatkan penjualan, dan meraih keunggulan kompetitif
 <br>
 <br>
 
-## 📂 **STAGE 0: Data Preparation**
+## 📂 **Data Preparation**
 
 Dataset yang digunakan adalah dataset minimart yang memiliki informasi transaksi dengan jumlah 435183 dari tahun 2008. Terdapat fitur-titur yang membuat informasi seperti tanggal transaksi, jumlah pembelian, rincian produk, informasi karyawan(kasir) yang bertugas, infromasi kota dan cabang, dan lain-lain.
 
@@ -32,7 +42,7 @@ Dataset yang digunakan adalah dataset minimart yang memiliki informasi transaksi
 <br>
 <br>
 
-## 📂 **STAGE 2: Data Analysis**
+## 📂 **Data Analysis**
 ### **Task**
 ### **1. Menampilkan nama cabang dan nama kota yang punya data penjualan**
 
@@ -145,7 +155,7 @@ JOIN table2 ON table1.nama_kota = table2.nama_kota
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No3.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No3.png" width=900px> </kbd> <br>
 <br>
 
 ### **4. Total produk yang dijual kasir 039-127 di tanggal 8 Agustus 2008**
@@ -164,7 +174,7 @@ AND CAST(tgl_transaksi AS date) = '2008-01-01'
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No4.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No4.png" width=300px> </kbd> <br>
 <br>
 
 ### **5. Total cabang di Provinsi Yogyakart**
@@ -189,7 +199,7 @@ WHERE
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No5.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No5.png" width=300px> </kbd> <br>
 <br>
 
 ### **6. Menampilkan total keuntungan yang didapat pada tanggal 8 Agustus 2008 pada cabang Makassar 01**
@@ -219,7 +229,7 @@ WHERE
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No6.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No6.png" width=300px> </kbd> <br>
 <br>
 
 ### **7. Menampilkan total transaksi per–kasir, dan bandingkan dengan total per–cabang**
@@ -261,10 +271,10 @@ ORDER BY tpk.kode_kasir
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No7.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No7.png" width=500px> </kbd> <br>
 <br>
 
-### ** 8. Menganalisi produk mana saja yang termasuk di grup yang memiliki sedikit penjualan dibandingkan dengan keseluruhan produk. Bagi menjadi 4 kelompok besar, dan filter 2 kelompok besar terbawah untuk melihat produk mana saja**
+### **8. Menganalisi produk mana saja yang termasuk di grup yang memiliki sedikit penjualan dibandingkan dengan keseluruhan produk. Bagi menjadi 4 kelompok besar, dan filter 2 kelompok besar terbawah untuk melihat produk mana saja**
 
 <details>
   <summary>Queries :</summary>
@@ -345,7 +355,7 @@ FROM B
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No9.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No9.png" width=500px> </kbd> <br>
 <br>
 
 ### **10. Membandingkan performa setiap cabang setiap bulannya selama 2008 dan melihat bagaimana trendnya untuk memonitor performa setiap cabang**
@@ -388,10 +398,10 @@ FROM B
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No10.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No10.png" width=500px> </kbd> <br>
 <br>
 
-### **11. Menampilkan top 3 karyawan dari setiap kota yang memiliki penjualan terbanyak selama semester 1 2008
+### **11. Menampilkan top 3 karyawan dari setiap kota yang memiliki penjualan terbanyak selama semester 1 2008**
 
 <details>
   <summary>Queries :</summary>
@@ -451,8 +461,23 @@ WHERE
 
 **Result :**
 <p align="center">
-  <kbd><img src="asset/No11.png" width=400px> </kbd> <br>
+  <kbd><img src="asset/No11.png" width=400px> </kbd> 
 <br>
-  
+<br>
 
 
+ 
+---
+
+## 📂 **Summary No 8 - 11**
+**Nomor 8 :** <br>
+Produk dibagi menjadi 4 kelompok berdasarkan profitabilitasnya. Kelompok yang berisi produk dengan profit/penjualan tertinggi berada pada kelompok 1, kemudian disusul kelompok 2, 3, dan kelompok yang berisi produk dengan profit terendah adalah kelompok 4. Dalam analisis ini dapat dilihat bahwa produk di kelompok 3 dan 4 merupakan 2 kelompok dengan produk yang memiliki penjualan/profit terendah dibandingkan dengan produk di kelompok lain. Berdasarkan hasil atau list produk dengan profit terendah yang telah tertera, dikembalikan kepada tim yang berkaitan untuk mengevaluasi kembali apa  yang menjadi kekurangan dan mengambil keputusan serta strategi untuk meningkatkan penjualan produk-produk tersebut.
+
+**Nomor 9 :** <br>
+Dari dari data yang diberikan, terdapat 3 kota dengan penjualan terbanyak. Terlihat bahwa Surabaya memimpin dalam hal jumlah penjualan, diikuti oleh Jakarta Pusat dan Makassar. Rate penjualan antar kota yang dihasilkan tidak berbeda jauh yaitu Surabaya memiliki rate 33.42%, Jakarta Pusat memiliki rate 33.33%, dan Makassar memiliki rate 33,25%. Hal ini mungkin mengindikasikan efisiensi atau efektivitas yang berbeda dalam operasional atau strategi penjualan masing-masing kota.
+
+**Nomor 10 :** <br>
+Data yang dihasilkan menunjukkan jumlah transaksi bulanan untuk tiga cabang berbeda, CABANG-039, CABANG-047, dan CABANG-065. Ketiga cabang menunjukkan fluktuasi bulanan dalam jumlah transaksi dengan beberapa bulan menunjukkan pertumbuhan (ditandai sebagai "Positif") dan beberapa menunjukkan penurunan (ditandai sebagai "Negatif") dibandingkan dengan bulan sebelumnya. Kolom "rate" menggambarkan persentase perubahan dari bulan sebelumnya, dengan nilai NULL dan "No Data" menunjukkan tidak adanya data untuk perbandingan. Cabang 039 menunjukkan pola yang bervariasi dengan campuran bulan positif dan negatif, sedangkan untuk Cabang 047 dan CABANG-065, juga terlihat pola serupa tetapi dengan periode tanpa data di awal. Terdapat beberapa periode stabil dan beberapa dengan perubahan yang signifikan, menunjukkan bahwa performa transaksi bisa dipengaruhi oleh faktor musiman, promosi, atau kejadian pasar. Untuk analisis yang lebih komprehensif, akan berguna untuk memahami konteks di balik angka-angka ini, seperti kegiatan pemasaran, perubahan dalam operasional, atau faktor eksternal yang mungkin mempengaruhi pola transaksi.
+
+**Nomor 11 :** <br>
+Berdasarkan tabel yang dihasilkan dapat dilihat bahwa terdapat top 3 karyawan di masing-masing kota yang melakukan penjualan produk terbanyak. Di Jakarta Pusat, Kristina Damai memimpin dengan rate tertinggi diikuti oleh Eko Rukun dan Kusuma Dominik. Di Makassar, Ferdy Tenteram berada di posisi teratas, dengan Agus Dewangga dan Eriq Menawan mengikutinya. Sementara di Surabaya, Natali Menawan memiliki rate yang jauh lebih tinggi dibandingkan dengan dua orang lainnya di kota yang sama, Budi Tenteram dan Harum Selangit, yang memiliki rate yang sama. Rate  mencerminkan kinerja yang dihitung dari jumlah produk yang dijual 1 karyawan dibagi jumlah produk yang dijual seluruh karyawan di cabang tersebut.
